@@ -1,0 +1,166 @@
+/* ----------------------------1: DEFAULT (START)---------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+:root {
+  --background-color: #11052c;
+  --primary-title-color: #fdca40;
+  --primary-text-color: #f4b0c7;
+  --nav-color: #21094e;
+  --primary-container-background: #7b113a;
+  --btn-primary-color: #44c767;
+  --btn-hover-color: #ff7b54;
+  --a-tag-hover: #a34a28;
+  --awesome-icon-color: #04009a;
+}
+
+* {
+  /* if we add a border or padding to an element, it wont affect the width of the element  */
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: white;
+  color: var(--primary-text-color);
+  padding: 0;
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  width: 100%;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-family: 'Dancing Script', sans-serif;
+  font-size: 4.5rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.35rem;
+}
+
+p {
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+a {
+  margin: 0 auto;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  transition: all 0.35s ease-in;
+}
+a:hover {
+  color: #9fe6a0;
+  cursor: pointer;
+}
+
+.text {
+  color: black;
+}
+.container {
+  position: relative;
+}
+
+.center {
+  align-items: center;
+}
+/* ----------------------------1: DEFAULT (END)---------------------------- */
+
+/* ----------------------------2: BODY (START)---------------------------- */
+#body {
+  height: 90vh;
+  width: 85vw;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+/* ----------------------------2 (1): MAIN (START)---------------------------- */
+#main {
+  width: 80%;
+  height: 100%;
+}
+/* ----------------------------2 (1): MAIN (END)---------------------------- */
+
+/* ----------------------------2(2): HEADER (START)---------------------------- */
+#header {
+  /* position: fixed;
+    right: 10%;
+    bottom: 40%;
+    height: 30%; */
+  width: 20%;
+  height: 100%;
+  border: 2px solid black;
+}
+@media (max-width: 800px) {
+  #header {
+    right: 3%;
+    width: 16%;
+  }
+}
+.list {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+.listItem {
+  display: flex;
+  height: 25%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* ----------------------------2(2): HEADER (END)---------------------------- */
+
+/* ----------------------------2: BODY (END)---------------------------- */
+
+/* ----------------------------3: - (START)---------------------------- */
+/* ----------------------------3: - (END)---------------------------- */
+
+/* ----------------------------4: - (START)---------------------------- */
+/* ----------------------------4: - (END)---------------------------- */
+
+/* ----------------------------5: - (START)---------------------------- */
+/* ----------------------------5: - (END)---------------------------- */
+
+/* ----------------------------6: - (START)---------------------------- */
+/* ----------------------------6: - (END)---------------------------- */
+
+/* ----------------------------7: - (START)---------------------------- */
+/* ----------------------------7: - (END)---------------------------- */
+
+/* ----------------------------8: FOOTER (START)---------------------------- */
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+/* ----------------------------8: FOOTER (END)---------------------------- */
